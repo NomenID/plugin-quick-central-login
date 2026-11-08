@@ -1,0 +1,10 @@
+{
+    "First-party apps skip the per-scope consent screen; adds the quick-login flag on the callback": "First-party apps skip the per-scope consent screen; adds the quick-login flag on the callback",
+    "Quick central sign-in": "Quick central sign-in",
+    "Apps published by this site sign you in without asking for permission every time, and the callback carries a quick-login flag. Third-party apps always show the consent screen.": "Apps published by this site sign you in without asking for permission every time, and the callback carries a quick-login flag. Third-party apps always show the consent screen.",
+    "Turn quick sign-in off and every app asks for confirmation again.": "Turn quick sign-in off and every app asks for confirmation again.",
+    "Quick sign-in is on": "Quick sign-in is on",
+    "Quick sign-in is off": "Quick sign-in is off",
+    "On": "On",
+    "Off": "Off"
+}

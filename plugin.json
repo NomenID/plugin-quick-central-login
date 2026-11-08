@@ -1,0 +1,29 @@
+{
+    "name": "Quick Central Login",
+    "version": "1.0.0",
+    "description": "First-party apps skip the per-scope consent screen; adds the quick-login flag on the callback",
+    "license": "GPL-3.0-only",
+    "author": [
+        "Yunyun"
+    ],
+    "requires": {
+        "Nomen": ">=1.4"
+    },
+    "autoload": {
+        "Nomen\\Plugin\\QuickCentralLogin\\": "src/"
+    },
+    "boot": [
+        "Nomen\\Plugin\\QuickCentralLogin\\Plugin",
+        "boot"
+    ],
+    "specialPages": {
+        "quick-login": {
+            "title": "Quick central sign-in",
+            "access": "public",
+            "handler": [
+                "Nomen\\Plugin\\QuickCentralLogin\\Plugin",
+                "specialPage"
+            ]
+        }
+    }
+}

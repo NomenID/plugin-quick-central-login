@@ -1,0 +1,10 @@
+{
+    "First-party apps skip the per-scope consent screen; adds the quick-login flag on the callback": "Le app del sito saltano la schermata di consenso e aggiungono un contrassegno di accesso rapido al callback",
+    "Quick central sign-in": "Accesso centrale rapido",
+    "Apps published by this site sign you in without asking for permission every time, and the callback carries a quick-login flag. Third-party apps always show the consent screen.": "Le app di questo sito accedono senza chiedere il permesso ogni volta e il callback porta un contrassegno di accesso rapido. Le app di terze parti mostrano sempre la schermata di consenso.",
+    "Turn quick sign-in off and every app asks for confirmation again.": "Se la disattivi, ogni app chiederà di nuovo la conferma.",
+    "Quick sign-in is on": "L'accesso rapido è attivo",
+    "Quick sign-in is off": "L'accesso rapido è disattivato",
+    "On": "Attivo",
+    "Off": "Disattivo"
+}

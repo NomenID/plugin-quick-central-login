@@ -1,0 +1,10 @@
+{
+    "First-party apps skip the per-scope consent screen; adds the quick-login flag on the callback": "Aplikasi milik tapak log masuk tanpa membenarkan setiap kali dan menanda balik dengan penanda log masuk pantas",
+    "Quick central sign-in": "Log masuk pusat pantas",
+    "Apps published by this site sign you in without asking for permission every time, and the callback carries a quick-login flag. Third-party apps always show the consent screen.": "Aplikasi milik tapak ini log masuk tanpa meminta kebenaran setiap kali, dan penanda balik membawa penanda log masuk pantas. Aplikasi pihak ketiga sentiasa menunjukkan skrin persetujuan.",
+    "Turn quick sign-in off and every app asks for confirmation again.": "Jika dimatikan, setiap aplikasi akan meminta pengesahan semula.",
+    "Quick sign-in is on": "Log masuk pantas diaktifkan",
+    "Quick sign-in is off": "Log masuk pantas dinyahaktifkan",
+    "On": "Aktif",
+    "Off": "Tidak aktif"
+}

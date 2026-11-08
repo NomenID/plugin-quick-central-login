@@ -1,0 +1,10 @@
+{
+    "First-party apps skip the per-scope consent screen; adds the quick-login flag on the callback": "第一方應用程式跳過逐項確認授權頁，並在回呼網址帶上快速登入標記",
+    "Quick central sign-in": "快速中央登入",
+    "Apps published by this site sign you in without asking for permission every time, and the callback carries a quick-login flag. Third-party apps always show the consent screen.": "本站自家應用程式登入時不再每次徵求同意，回呼網址會帶上快速登入標記。第三方應用程式仍會顯示確認頁。",
+    "Turn quick sign-in off and every app asks for confirmation again.": "關掉後，所有應用程式都會重新逐項徵求確認。",
+    "Quick sign-in is on": "快速登入已開啟",
+    "Quick sign-in is off": "快速登入已關閉",
+    "On": "開",
+    "Off": "關"
+}

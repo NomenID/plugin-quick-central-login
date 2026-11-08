@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS quick_login_prefs (
+  user_id INTEGER PRIMARY KEY,
+  enabled INTEGER NOT NULL DEFAULT 1,
+  updated_at TEXT NOT NULL DEFAULT ''
+);

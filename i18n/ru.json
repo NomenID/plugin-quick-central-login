@@ -1,0 +1,10 @@
+{
+    "First-party apps skip the per-scope consent screen; adds the quick-login flag on the callback": "Свои приложения пропускают экран подтверждения и добавляют флаг быстрого входа в адрес возврата",
+    "Quick central sign-in": "Быстрый центральный вход",
+    "Apps published by this site sign you in without asking for permission every time, and the callback carries a quick-login flag. Third-party apps always show the consent screen.": "Приложения этого сайта выполняют вход, не спрашивая разрешения каждый раз, а в адрес возврата добавляется флаг быстрого входа. Сторонние приложения всегда показывают экран подтверждения.",
+    "Turn quick sign-in off and every app asks for confirmation again.": "Если выключить, каждое приложение снова будет запрашивать подтверждение.",
+    "Quick sign-in is on": "Быстрый вход включён",
+    "Quick sign-in is off": "Быстрый вход выключен",
+    "On": "Включено",
+    "Off": "Выключено"
+}
