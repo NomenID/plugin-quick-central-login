@@ -4,7 +4,7 @@
     "description": "First-party apps skip the per-scope consent screen; adds the quick-login flag on the callback",
     "license": "GPL-3.0-only",
     "author": [
-        "Yunyun"
+        "Yunyun (Wang Yaoze)"
     ],
     "requires": {
         "Nomen": ">=1.3.2"
