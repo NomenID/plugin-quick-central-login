@@ -1,8 +1,7 @@
 Copyright (C) 2025-2026 Yunyun (Wang Yaoze)
 
-This plugin uses the geoip2/geoip2 library (Apache-2.0) and
-GeoLite2 data created by MaxMind (CC BY-SA 4.0). Neither is
-bundled with the plugin. See README.md for details.
+This plugin is licensed under the GNU General Public License, version 3 only
+(not any later version).
 
                     GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
