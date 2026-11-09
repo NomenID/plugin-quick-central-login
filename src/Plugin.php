@@ -4,7 +4,7 @@
  * Licensed under the GNU General Public License, version 3 only, with
  * additional attribution terms in the NOTICE file.
  * Source: https://github.com/NomenID/plugin-quick-central-login
- * Project: https://nomen.caellab.com/
+ * Project: https://nomenid.org/
  */
 
 namespace Nomen\Plugin\QuickCentralLogin;
