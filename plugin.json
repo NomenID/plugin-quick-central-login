@@ -1,6 +1,6 @@
 {
     "name": "Quick Central Login",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "First-party apps skip the per-scope consent screen; adds the quick-login flag on the callback",
     "license": "Apache-2.0",
     "author": [
