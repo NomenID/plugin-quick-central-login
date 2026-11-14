@@ -4,7 +4,5 @@
     "Apps published by this site sign you in without asking for permission every time, and the callback carries a quick-login flag. Third-party apps always show the consent screen.": "אפליקציות האתר מחברות אותך מבלי לבקש רשות בכל פעם, וכתובת ההחזרה נושאת סימון כניסה מהירה. אפליקציות של צד שלישי תמיד מציגות את מסך האישור.",
     "Turn quick sign-in off and every app asks for confirmation again.": "אם תכבו את זה, כל אפליקציה תבקש אישור שוב.",
     "Quick sign-in is on": "הכניסה המהירה פעילה",
-    "Quick sign-in is off": "הכניסה המהירה כבויה",
-    "On": "פעיל",
-    "Off": "כבוי"
+    "Quick sign-in is off": "הכניסה המהירה כבויה"
 }

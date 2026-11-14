@@ -4,7 +4,5 @@
     "Apps published by this site sign you in without asking for permission every time, and the callback carries a quick-login flag. Third-party apps always show the consent screen.": "इस साइट के अपने ऐप हर बार अनुमति मांगे बिना आपको साइन इन कराते हैं और कॉलबैक में क्विक साइन-इन फ़्लैग होता है। तीसरे पक्ष के ऐप हमेशा सहमति स्क्रीन दिखाते हैं।",
     "Turn quick sign-in off and every app asks for confirmation again.": "इसे बंद करने पर हर ऐप फिर से पुष्टि मांगेगा।",
     "Quick sign-in is on": "क्विक साइन-इन चालू है",
-    "Quick sign-in is off": "क्विक साइन-इन बंद है",
-    "On": "चालू",
-    "Off": "बंद"
+    "Quick sign-in is off": "क्विक साइन-इन बंद है"
 }

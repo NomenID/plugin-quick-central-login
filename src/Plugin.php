@@ -54,7 +54,7 @@ class Plugin
             . $radio('1', $enabled, t('On'))
             . $radio('0', !$enabled, t('Off'))
             . '</div>'
-            . '<p class="form-hint">' . htmlspecialchars(t($enabled ? 'Quick sign-in is on' : 'Quick sign-in is off')) . '</p>'
+            . '<p class="form-hint">' . htmlspecialchars($enabled ? t('Quick sign-in is on') : t('Quick sign-in is off')) . '</p>'
             . '<button type="submit" class="btn btn-primary">' . htmlspecialchars(t('Save')) . '</button>'
             . '</form>';
     }
@@ -87,7 +87,7 @@ class Plugin
             }
         }
 
-        Session::flash('success', t($enabled ? 'Quick sign-in is on' : 'Quick sign-in is off'));
+        Session::flash('success', $enabled ? t('Quick sign-in is on') : t('Quick sign-in is off'));
         Response::redirect('/special/quick-login');
     }
 

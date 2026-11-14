@@ -4,7 +4,5 @@
     "Apps published by this site sign you in without asking for permission every time, and the callback carries a quick-login flag. Third-party apps always show the consent screen.": "이 사이트의 자체 앱은 매번 동의를 묻지 않고 로그인되며 콜백에 빠른 로그인 플래그가 붙습니다. 서드파티 앱은 항상 동의 화면을 표시합니다.",
     "Turn quick sign-in off and every app asks for confirmation again.": "끄면 모든 앱이 다시 확인을 요청합니다.",
     "Quick sign-in is on": "빠른 로그인이 켜져 있습니다",
-    "Quick sign-in is off": "빠른 로그인이 꺼져 있습니다",
-    "On": "켜기",
-    "Off": "끄기"
+    "Quick sign-in is off": "빠른 로그인이 꺼져 있습니다"
 }

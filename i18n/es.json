@@ -4,7 +4,5 @@
     "Apps published by this site sign you in without asking for permission every time, and the callback carries a quick-login flag. Third-party apps always show the consent screen.": "Las aplicaciones de este sitio inician sesión sin pedir permiso cada vez, y la devolución de llamada lleva una marca de inicio rápido. Las aplicaciones de terceros siempre muestran la pantalla de consentimiento.",
     "Turn quick sign-in off and every app asks for confirmation again.": "Si la desactivas, todas las aplicaciones volverán a pedir confirmación.",
     "Quick sign-in is on": "El inicio de sesión rápido está activado",
-    "Quick sign-in is off": "El inicio de sesión rápido está desactivado",
-    "On": "Activado",
-    "Off": "Desactivado"
+    "Quick sign-in is off": "El inicio de sesión rápido está desactivado"
 }
