@@ -23,7 +23,16 @@ class Plugin
     public static function boot(): void
     {
         Hooks::add('oauth.authorize.quick', [self::class, 'authorizeQuick'], 10);
+        Hooks::add('oauth.authorize.quick.settings', [self::class, 'settingsUrl'], 10);
         Plugins::route('POST', '/special/quick-login', [self::class, 'toggle'], ['auth']);
+    }
+
+    /**
+     * 中间页上「可在设置里关闭快速登录」的链接；核心只收站内路径。
+     */
+    public static function settingsUrl(mixed $url, int $userId, array $client): string
+    {
+        return '/special/quick-login';
     }
 
     public static function specialPage(): string

@@ -4,6 +4,8 @@
 核心不内置任何「免确认」策略，判定全部在本插件：第一方应用 + 用户没在 `/special/quick-login` 关掉。
 
 - 钩子：`oauth.authorize.quick`（核心在授权请求判定阶段发，返回非空字符串即免确认直发并把它作为 `spicallogin` 的值）。
+  已经授权过的应用直接重定向；还没授权过的先走中间页（打勾动画 + 自动提交），中间页不带 `spicallogin`。
+- 钩子：`oauth.authorize.quick.settings`（给中间页提供 `/special/quick-login` 这个「关闭快速登录」入口）。
 - 用户开关：`/special/quick-login`；默认开启，关掉的记录存 `quick_login_prefs` 表（没有记录 = 开启）。
 - 需要核心 `>=1.3.2`（钩子在那版引入）。只部署在需要这个行为的实例上（如 id.caellab.com），不随包分发。
 
