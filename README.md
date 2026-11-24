@@ -7,6 +7,6 @@
   已经授权过的应用直接重定向；还没授权过的先走中间页（打勾动画 + 自动提交），中间页不带 `spicallogin`。
 - 钩子：`oauth.authorize.quick.settings`（给中间页提供 `/special/quick-login` 这个「关闭快速登录」入口）。
 - 用户开关：`/special/quick-login`；默认开启，关掉的记录存 `quick_login_prefs` 表（没有记录 = 开启）。
-- 需要核心 `>=1.3.2`（钩子在那版引入）。只部署在需要这个行为的实例上（如 id.caellab.com），不随包分发。
+- 需要核心 `>=1.10.2`（`oauth.authorize.quick` 引入于 1.3.2，`oauth.authorize.quick.settings` 引入于 1.10.2）。只部署在需要这个行为的实例上（如 id.caellab.com），不随包分发。
 
 标记值沿用历史 slug `caellab-launch-plan-sister-project-quick-login`，接入方只判参数在不在，别比对值。
